@@ -46,7 +46,7 @@ const SkeletonCard = () => (
 const BlurredImage = ({ src, alt, title, description }) => {
   const [isBlurred, setIsBlurred] = useState(true);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000' || 'https://testingproject-minl.onrender.com';
 
   const finalSrc = useMemo(() => {
     return src.startsWith('/view-image/') ? `${API_BASE_URL}${src}` : src;
