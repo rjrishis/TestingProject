@@ -9,6 +9,7 @@ const allImages = [
   { id: 3, src: '/view-image/car-967387_1280.png', alt: 'A sea turtle swimming gracefully in the deep blue ocean', title: 'Oceanic Depth', description: 'Exploring the vibrant life beneath the waves.' },
   { id: 4, src: '/view-image/christmas-7715230_1280.png', alt: 'A sunlit path winding through a dense green forest', title: 'Forest Path', description: 'A quiet journey through a sunlit forest.' },
   { id: 5, src: '/view-image/dolphin-2708695_1280.png', alt: 'A sprawling cityscape illuminated with vibrant lights at night', title: 'City Lights', description: 'The vibrant energy of a city at night.' },
+  { id: 6, src: '/view-image/Blurred-Image.png', alt: 'Blurred-Image', title: 'Blurred', description: 'This is a Blurred-Image.' },
   // ... (add all other local images here with the /view-image/ prefix)
 ];
 
